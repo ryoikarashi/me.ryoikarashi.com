@@ -1,0 +1,64 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+body {
+  animation-name: fadeIn;
+  animation-duration: 2.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+  backface-visibility: hidden;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.en .desc--ja { display: none; }
+.ja .desc--en { display: none; }
+
+.email-btn {
+  background: transparent;
+  transition: all 0.15s linear;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+}
+
+.email-icon,
+.logo {
+  transform: scale(0.8);
+
+  @media (--breakpoint-not-small) {
+    transform: scale(1);
+  }
+}
+
+.email-icon-wrapper {
+  vertical-align: text-top;
+
+  @media ($--breakpoint-not-small) {
+    vertical-align: middle;
+  }
+}
+
+.sns-btn {
+  opacity: 1;
+  transition: all 0.15s linear;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

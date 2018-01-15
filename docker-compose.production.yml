@@ -1,0 +1,21 @@
+version: "2"
+
+services:
+  me-ryoikarashi:
+    image: nginx
+    container_name: me-ryoikarashi
+    expose:
+      - 80
+      - 443
+    environment:
+      VIRTUAL_HOST: www.me.ryoikarashi.com,me.ryoikarashi.com
+      LETSENCRYPT_HOST: www.me.ryoikarashi.com,me.ryoikarashi.com
+      LETSENCRYPT_EMAIL: me@ryoikarashi.com
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./nginx/conf.d/production:/etc/nginx/conf.d
+
+networks:
+  default:
+    external:
+      name: shared

@@ -1,0 +1,47 @@
+extends ../shared/_layout
+
+block content
+  main
+    div.prof
+      figure.prof__img
+        img(src=data.pages.top.prof.image)
+      p
+        h1 #{data.pages.top.prof.name}
+      div.prof__desc
+        p #{data.pages.top.prof.desc}
+    div.content
+      article.resume
+        ul
+          each history, index in data.pages.top.resume
+            li.history
+              div
+                h3.history__name #{history.name}
+                p.history__url
+                  a(href=history.url target="_blank")
+                time #{history.term.begin} - #{history.term.end}
+                p.history__desc #{history.desc}
+                if history.tech.length > 0
+                  ul.tech
+                    each tech, index in history.tech
+                      li #{tech}
+                if history.sites && history.sites.length > 0
+                  ul.sites
+                    each site, index in history.sites
+                      li.history__site
+                        div
+                          h4.history__site__name #{site.name}
+                          p
+                            a(href=site.url target="_blank")
+                          ul.tech
+                            each tech, index in site.tech
+                              li #{tech}
+
+      if data.pages.top.projects.length > 0
+        article.projects
+          ul
+            each project, index in data.pages.top.projects
+              li.project
+                div
+                  h3.project__name #{project.name}
+                  p
+                    a(href=project.url target="_blank")

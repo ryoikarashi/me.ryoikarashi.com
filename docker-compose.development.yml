@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  me-ryoikarashi:
+    image: nginx
+    container_name: me-ryoikarashi
+    expose:
+      - 80
+      - 443
+    environment:
+      VIRTUAL_HOST: me.ryoikarashi.dev
+    volumes:
+      - ./dist:/usr/share/nginx/html:ro
+      - ./nginx/conf.d/development:/etc/nginx/conf.d
+
+networks:
+  default:
+    external:
+      name: ryoikarashi-proxy
