@@ -49,6 +49,7 @@ const data = {
           image: '../assets/prof.jpg',
           desc: '京都を拠点にウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
         },
+        resume_title: '経歴',
         resume: [
           {
             term: {
@@ -56,7 +57,7 @@ const data = {
               end: '2014/10'
             },
             name: '株式会社 Ednity',
-            url: 'https://ednity.com',
+            url: 'https://www.ednity.com',
             tech: ['JavaScript', 'AngularJS', 'WebSocket', 'PHP', 'CakePHP', 'Ruby on Rails', 'Mysql','SASS', 'CSS3', 'HTML5', 'Nginx', 'Apache', 'AWS'],
             desc: "教育機関向けチャットアプリケーションの作成。主にフロントエンド全般を担当。PHPやRailsでのサーバーサイドの実装も部分的に担当。",
           },
@@ -103,6 +104,7 @@ const data = {
           },
 
         ],
+        projects_title: 'プロジェクト',
         projects: [
           {
             name: 'bitbar-bibance-price-viewer',

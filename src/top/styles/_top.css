@@ -12,17 +12,34 @@
 
 body {
   animation-name: fadeIn;
-  animation-duration: 2.5s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335);
   backface-visibility: hidden;
 }
 
-.wrapper {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.history {
+  &::after {
+    content: '';
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: var(--c-white);
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 9px;
+    bottom: 0;
+    left: 4px;
+    width: 1px;
+    background: var(--c-white);
+  }
 }
 
 .en .desc--ja { display: none; }

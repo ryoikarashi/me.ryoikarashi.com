@@ -9,6 +9,8 @@
 html,
 body {
   background-image: var(--c-purple--grad);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 html {
@@ -24,4 +26,15 @@ a {
   word-wrap: break-word;
   color: var(--c-white);
   text-decoration: none;
+}
+
+.bg--white--ts {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sticky {
+  @media (--breakpoint-not-small) {
+    position: sticky;
+    top: 20px;
+  }
 }

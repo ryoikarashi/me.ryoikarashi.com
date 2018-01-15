@@ -1,4 +1,5 @@
 import 'babel-polyfill';
+import Stickyfill from 'stickyfilljs';
 import './index.css';
 
 const ready = (fn) => {
@@ -24,6 +25,10 @@ ready(() => {
   } else {
     document.body.classList.add('en');
   }
+
+  // polyfill for `position: sticky`
+  const elements = document.querySelectorAll('.sticky');
+  Stickyfill.add(elements);
 });
 
 // Accept HMR
