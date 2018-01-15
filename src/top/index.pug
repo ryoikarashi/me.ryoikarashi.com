@@ -4,7 +4,8 @@ block content
   main.mw8.center
     .cf.w-100.pa5-ns.pa4
       header.prof.fl.w-40-ns.mb5.mb0-ns.sticky
-        h1.ma0 #{data.pages.top.prof.name}
+        h1.ma0.tc.tl-ns= data.pages.top.prof.name
+        p.b.ma0.tc.tl-ns= data.pages.top.prof.sub_name
         div.prof__desc.bl.bw2.ph4.mv4.pv2.bg--white--ts
           p #{data.pages.top.prof.desc}
         figure.prof__img.ma0.pa0
@@ -26,7 +27,7 @@ block content
                       if history.tech
                         ul.tech.ma0.pa0.cf
                           each tech, index in history.tech
-                            li.list.fl.pa1.ba.mr2.mb2= tech
+                            li.list.fl.pa1.ba.mr2.mb2.f7= tech
                       if history.sites
                         h3.ma0.dib.pb2.bb.bw1 主な製作実績
                         ul.sites.ma0.pa0.pl3.mv4
@@ -35,9 +36,12 @@ block content
                               div
                                 h4.history__site__name.f3-ns.f4.ma0.mv3
                                   a.dim(href=site.url target="_blank")= site.name
+                                if site.desc
+                                  div
+                                    p.bl.bw2.ph4.pv3.mv4.bg--white--ts= site.desc
                                 ul.ma0.pa0.tech.cf
                                   each tech, index in site.tech
-                                    li.list.fl.pa1.ba.mr2.mb2= tech
+                                    li.list.fl.pa1.ba.mr2.mb2.f7= tech
 
         if data.pages.top.projects
           article.projects

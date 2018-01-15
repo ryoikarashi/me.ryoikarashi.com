@@ -24,10 +24,6 @@ const data = {
     footer: {
       sns: [
         {
-          url: 'https://github.com/RyoIkarashi',
-          classname: 'github',
-        },
-        {
           url: 'https://twitter.com/ryo_ikarashi',
           classname: 'twitter'
         },
@@ -39,13 +35,18 @@ const data = {
           url: 'https://instagram.com/ryo_ikarashi',
           classname: 'instagram'
         },
+        {
+          url: 'https://github.com/RyoIkarashi',
+          classname: 'github'
+        },
       ],
       copy: 'Copyright©2018 Ryo Ikarashi. All Rights Reserved.',
     },
     pages: {
       top: {
         prof: {
-          name: 'Ryo Ikarashi (五十嵐諒)',
+          name: 'Ryo Ikarashi',
+          sub_name: '五十嵐諒',
           image: '../assets/prof.jpg',
           desc: '京都を拠点にウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
         },
@@ -58,8 +59,8 @@ const data = {
             },
             name: '株式会社 Ednity',
             url: 'https://www.ednity.com',
-            tech: ['JavaScript', 'AngularJS', 'WebSocket', 'PHP', 'CakePHP', 'Ruby on Rails', 'Mysql','SASS', 'CSS3', 'HTML5', 'Nginx', 'Apache', 'AWS'],
-            desc: "教育機関向けチャットアプリケーションの作成。主にフロントエンド全般を担当。PHPやRailsでのサーバーサイドの実装も部分的に担当。",
+            tech: ['JavaScript', 'AngularJS', 'WebSocket', 'PHP', 'CakePHP', 'Ruby on Rails', 'Mysql','SASS', 'CSS3', 'HTML5', 'Nginx', 'Apache', 'Vagrant', 'Chef', 'Docker', 'ShellScript', 'AWS'],
+            desc: "教育機関向けリアル・タイムチャットアプリケーションの作成。AngularJSやWebsocketを用いたリアル・タイムのチャットアプリケーションを作成。主にフロントエンド全般を担当した。PHPによる画像・動画のアップロード周り等サーバーサイドの実装も部分的に担当。",
           },
           {
             term: {
@@ -81,16 +82,19 @@ const data = {
             sites: [
               {
                 name: '一般社団法人アーツシード京都',
+                desc: 'デザインからコーディングまでを一貫して担当。CMSにWordPressを採用。サーバーサイドでは、「寄付」の決済周りを実装した。',
                 tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Webpack', 'ES6/7', 'PostCSS', 'Nginx', 'Docker', '寄付の決済周りの実装'],
                 url: 'https://askyoto.or.jp',
               },
               {
                 name: 'Anna Matsumoto ポートフォリオサイト',
+                desc: 'Anna Matsumoto のポートフォリオサイトを製作。WordPressのRest APIとReactJS/Reduxを用いたSPAなサイトを製作。デザインからコーディングまでを一貫して担当した。',
                 tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Webpack', 'ES6/7', 'PostCSS', 'ReactJS', 'Redux', 'SPA', 'Nginx', 'Docker'],
                 url: 'https://annamatsumoto.com',
               },
               {
                 name: '株式会社Panbanisha',
+                desc: 'WordPressのRest APIとReactJSを用いたSPAなサイトを製作。コーディングのみ担当。',
                 tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Browserify', 'ES6/7, SPA', 'SASS', 'Nginx', 'Docker'],
                 url: 'http://panbanisha.com',
               },
@@ -100,9 +104,8 @@ const data = {
                 url: 'http://madebymunki.com',
               },
             ],
-            desc: "主に企業やアーティスト等のウェブサイト製作。デザインからコーディングまでを担当。",
+            desc: "主に企業や団体、アーティスト等のウェブサイト製作。デザインからコーディングまでを担当。",
           },
-
         ],
         projects_title: 'プロジェクト',
         projects: [
