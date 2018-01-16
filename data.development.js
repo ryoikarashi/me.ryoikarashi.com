@@ -98,11 +98,6 @@ const data = {
                 tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Browserify', 'ES6/7, SPA', 'SASS', 'Nginx', 'Docker'],
                 url: 'http://panbanisha.com',
               },
-              {
-                name: 'Chris Wang ポートフォリオウェブサイト',
-                tech: ['JavaScript', 'ES6/7', 'Webpack', 'PostCSS', 'Nginx', 'Docker'],
-                url: 'http://madebymunki.com',
-              },
             ],
             desc: "主に企業や団体、アーティスト等のウェブサイト製作。デザインからコーディングまでを担当。",
           },
