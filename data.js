@@ -81,6 +81,12 @@ const data = {
             url: 'https://ryoikarashi.com',
             sites: [
               {
+                name: '紡ぎ話 - 藤井寺',
+                desc: '大阪府藤井寺市の観光PRサイトを作成しました。デザイン/開発を担当しました。',
+                tech: ['WordPress', 'PHP', 'ES6/7', 'Google Map API', 'Webpack', 'Docker', 'pjax'],
+                url: 'https://fujiidera.tours',
+              },
+              {
                 name: '一般社団法人アーツシード京都',
                 desc: 'デザインからコーディングまでを一貫して担当。CMSにWordPressを採用。サーバーサイドでは、「寄付」の決済周りを実装した。',
                 tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Webpack', 'ES6/7', 'PostCSS', 'Nginx', 'Docker', '寄付の決済周りの実装'],
