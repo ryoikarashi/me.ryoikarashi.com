@@ -111,6 +111,10 @@ const data = {
         projects_title: 'プロジェクト',
         projects: [
           {
+            name: 'academyfm-dl',
+            url: 'https://github.com/RyoIkarashi/academyfm-dl'
+          },
+          {
             name: 'bitbar-bibance-price-viewer',
             url: 'https://github.com/RyoIkarashi/bitbar-bibance-price-viewer'
           },
