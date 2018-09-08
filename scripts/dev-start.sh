@@ -10,19 +10,16 @@ set -eux
 
 : "download latest docker image" && {
   docker-compose -f docker-compose.development.yml pull
-  docker-compose -f docker-compose.proxy.development.yml pull
 }
 
 : "build docker image if docker container is NOT created yet" && {
   docker ps -a | grep $CONTAINER_NAME > /dev/null || {
     docker-compose -f docker-compose.development.yml build
-    docker-compose -f docker-compose.proxy.development.yml build
   }
 }
 
 : "start docker container" && {
   docker-compose -f docker-compose.development.yml up -d
-  docker-compose -f docker-compose.proxy.development.yml up -d
 }
 
 : "start tmuxinator" && {

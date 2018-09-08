@@ -18,7 +18,7 @@ make dev
 
 ## Editing Content
 
-All contents are retrived from `data.js` or `data.development.js` according to your environment.
+All contents are retrived from `data.js`.
 After editing the content, you have to rebuild the source with the following command.
 
 ```

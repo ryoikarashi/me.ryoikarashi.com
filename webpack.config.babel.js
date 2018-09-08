@@ -5,7 +5,7 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import StyleLintPlugin from 'stylelint-webpack-plugin';
 import fs from 'fs';
 import FaviconsWebpackPlugin from 'favicons-webpack-plugin';
-import data from './data.development';
+import data from './data';
 
 const entries = {
   top: './src/top/index.js',
