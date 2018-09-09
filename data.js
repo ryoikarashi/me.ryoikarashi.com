@@ -83,11 +83,13 @@ const data = {
               {
                 name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
                 desc: 'Applivマンガの開発全般を担当。決済周り等も開発。',
+                tech: [],
                 url: 'manga.app-liv.jp',
               },
               {
                 name: '城崎温泉',
                 desc: '城崎温泉のウェブサイトのフロントエンド改修を少しお手伝い。',
+                tech: [],
                 url: 'https://kinosaki-onsen.herokuapp.com',
               },
               {
