@@ -78,8 +78,18 @@ const data = {
               end: 'now'
             },
             name: 'フリーランスプログラマー兼デザイナー',
-            url: 'https://ryoikarashi.com',
+            url: 'https://me.ryoikarashi.com',
             sites: [
+              {
+                name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
+                desc: 'Applivマンガの開発全般を担当。決済周り等も開発。',
+                url: 'manga.app-liv.jp',
+              },
+              {
+                name: '城崎温泉',
+                desc: '城崎温泉のウェブサイトのフロントエンド改修を少しお手伝い。',
+                url: 'https://kinosaki-onsen.herokuapp.com',
+              },
               {
                 name: '紡ぎ話 - 藤井寺',
                 desc: '大阪府藤井寺市の観光PRサイトを作成しました。デザイン/開発を担当しました。',
