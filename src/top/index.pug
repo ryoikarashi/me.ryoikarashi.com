@@ -15,7 +15,7 @@ block content
         article.resume.mb5
           h2.ma0.mb3= data.pages.top.resume_title
           ul.ma0.pa0
-            each history, index in data.pages.top.resume
+            each history, index in data.pages.top.resume.reverse()
               li.history.list.relative
                 div
                   time.db.pl4 #{history.term.begin} - #{history.term.end}
