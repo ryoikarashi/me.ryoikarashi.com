@@ -84,7 +84,7 @@ const data = {
                 name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
                 desc: 'Applivマンガの開発全般を担当。',
                 tech: [],
-                url: 'manga.app-liv.jp',
+                url: 'https://manga.app-liv.jp',
               },
               {
                 name: '紡ぎ話 - 藤井寺',
