@@ -82,7 +82,7 @@ const data = {
             sites: [
               {
                 name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
-                desc: 'Applivマンガの開発全般を担当。決済周り等も開発。',
+                desc: 'Applivマンガの開発全般を担当。',
                 tech: [],
                 url: 'manga.app-liv.jp',
               },
