@@ -87,12 +87,6 @@ const data = {
                 url: 'manga.app-liv.jp',
               },
               {
-                name: '城崎温泉',
-                desc: '城崎温泉のウェブサイトのフロントエンド改修を少しお手伝い。',
-                tech: [],
-                url: 'https://kinosaki-onsen.herokuapp.com',
-              },
-              {
                 name: '紡ぎ話 - 藤井寺',
                 desc: '大阪府藤井寺市の観光PRサイトを作成しました。デザイン/開発を担当しました。',
                 tech: ['WordPress', 'PHP', 'ES6/7', 'Google Map API', 'Webpack', 'Docker', 'pjax'],
