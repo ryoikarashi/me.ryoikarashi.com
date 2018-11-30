@@ -2,10 +2,10 @@ const data = {
   data: {
     meta: {
       title: 'About Me | Ryo Ikarashi',
-      desc: '五十嵐諒 / 京都を拠点にウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+      desc: '五十嵐諒 / ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
       og: {
         title: 'About Me | Ryo Ikarashi',
-        desc: '五十嵐諒 / 京都を拠点にウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+        desc: '五十嵐諒 / ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
         type: 'website',
         url: 'https://ryoikarashi.com',
         image: '../assets/ryoikarashi-ogp.png',
@@ -23,18 +23,18 @@ const data = {
     },
     footer: {
       sns: [
-        {
-          url: 'https://twitter.com/ryo_ikarashi',
-          classname: 'twitter'
-        },
-        {
-          url: 'https://facebook.com/ry0ikarash1',
-          classname: 'facebook'
-        },
-        {
-          url: 'https://instagram.com/ryo_ikarashi',
-          classname: 'instagram'
-        },
+        // {
+        //   url: 'https://twitter.com/ryo_ikarashi',
+        //   classname: 'twitter'
+        // },
+        // {
+        //   url: 'https://facebook.com/ry0ikarash1',
+        //   classname: 'facebook'
+        // },
+        // {
+        //   url: 'https://instagram.com/ryo_ikarashi',
+        //   classname: 'instagram'
+        // },
         {
           url: 'https://github.com/RyoIkarashi',
           classname: 'github'
@@ -48,7 +48,7 @@ const data = {
           name: 'Ryo Ikarashi',
           sub_name: '五十嵐諒',
           image: '../assets/prof.jpg',
-          desc: '京都を拠点にウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+          desc: 'ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
         },
         resume_title: '経歴',
         resume: [
