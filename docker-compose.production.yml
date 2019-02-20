@@ -14,6 +14,7 @@ services:
     volumes:
       - ./dist:/usr/share/nginx/html:ro
       - ./nginx/conf.d/production:/etc/nginx/conf.d
+    restart: always
 
 networks:
   default:
