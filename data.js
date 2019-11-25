@@ -117,6 +117,10 @@ const data = {
         projects_title: 'プロジェクト',
         projects: [
           {
+            name: 'doi-san-cooking-video-downloader',
+            url: 'https://github.com/RyoIkarashi/doi-san-cooking-video-downloader'
+          },
+          {
             name: 'academyfm-dl',
             url: 'https://github.com/RyoIkarashi/academyfm-dl'
           },
