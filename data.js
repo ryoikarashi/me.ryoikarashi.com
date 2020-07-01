@@ -23,10 +23,10 @@ const data = {
     },
     footer: {
       sns: [
-        // {
-        //   url: 'https://twitter.com/ryo_ikarashi',
-        //   classname: 'twitter'
-        // },
+        {
+          url: 'https://twitter.com/ryo_ikarashi',
+          classname: 'twitter'
+        },
         // {
         //   url: 'https://facebook.com/ry0ikarash1',
         //   classname: 'facebook'
@@ -40,7 +40,7 @@ const data = {
           classname: 'github'
         },
       ],
-      copy: 'Copyright©2018 Ryo Ikarashi. All Rights Reserved.',
+      copy: 'Copyright©2020 Ryo Ikarashi. All Rights Reserved.',
     },
     pages: {
       top: {
@@ -48,7 +48,7 @@ const data = {
           name: 'Ryo Ikarashi',
           sub_name: '五十嵐諒',
           image: '../assets/prof.jpg',
-          desc: 'ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+          desc: 'A software developer based in Kyoto, Japan. 🌱',
         },
         resume_title: '経歴',
         resume: [
@@ -81,6 +81,12 @@ const data = {
             url: 'https://me.ryoikarashi.com',
             sites: [
               {
+                name: 'Amerism 留学のアメリズム',
+                desc: '留学エージェントAmerismのウェブサイトを制作',
+                tech: ['gatsby', 'taiwindcss'],
+                url: 'https://manga.app-liv.jp',
+              },
+              {
                 name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
                 desc: 'Applivマンガの開発全般を担当。',
                 tech: [],
@@ -101,13 +107,13 @@ const data = {
               {
                 name: 'Anna Matsumoto ポートフォリオサイト',
                 desc: 'Anna Matsumoto のポートフォリオサイトを製作。WordPressのRest APIとReactJS/Reduxを用いたSPAなサイトを製作。デザインからコーディングまでを一貫して担当した。',
-                tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Webpack', 'ES6/7', 'PostCSS', 'ReactJS', 'Redux', 'SPA', 'Nginx', 'Docker'],
+                tech: ['gatsby'],
                 url: 'https://annamatsumoto.com',
               },
               {
                 name: '株式会社Panbanisha',
-                desc: 'WordPressのRest APIとReactJSを用いたSPAなサイトを製作。コーディングのみ担当。',
-                tech: ['WordPress', 'PHP', 'Mysql', 'JavaScript', 'Browserify', 'ES6/7, SPA', 'SASS', 'Nginx', 'Docker'],
+                desc: '映像制作会社Panbanishaのウェブサイトを制作',
+                tech: ['gatsby'],
                 url: 'http://panbanisha.com',
               },
             ],
