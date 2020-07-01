@@ -74,7 +74,7 @@ const data = {
           },
           {
             term: {
-              begin: '2015/08',
+              begin: '',
               end: 'now'
             },
             name: 'フリーランスプログラマー兼デザイナー',
@@ -91,6 +91,12 @@ const data = {
                 desc: 'Applivマンガの開発全般を担当。',
                 tech: [],
                 url: 'https://manga.app-liv.jp',
+              },
+              {
+                name: '京田辺市文化協会',
+                desc: '京田辺市文化協会のウェブサイトを制作',
+                tech: [],
+                url: 'https://kyotanabe-bunka.jp',
               },
               {
                 name: '紡ぎ話 - 藤井寺',
