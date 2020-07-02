@@ -84,7 +84,7 @@ const data = {
                 name: 'Amerism 留学のアメリズム',
                 desc: '留学エージェントAmerismのウェブサイトを制作',
                 tech: ['gatsby', 'taiwindcss'],
-                url: 'https://manga.app-liv.jp',
+                url: 'https://amerism.net',
               },
               {
                 name: 'Applivマンガ: 漫画・電子コミックの人気作品がお得に読める漫画サイト',
