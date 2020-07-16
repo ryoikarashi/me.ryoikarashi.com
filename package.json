@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "babel-polyfill": "^6.23.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "modernizr": "^3.5.0",
     "path": "^0.12.7",
     "stickyfilljs": "^2.0.3",
