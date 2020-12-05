@@ -81,6 +81,12 @@ const data = {
             url: 'https://me.ryoikarashi.com',
             sites: [
               {
+                name: '妊婦向けチャットボットサービス',
+                desc: '妊婦向けのチャットボットアプリケーションを開発',
+                tech: [],
+                url: '',
+              },
+              {
                 name: 'Amerism 留学のアメリズム',
                 desc: '留学エージェントAmerismのウェブサイトを制作',
                 tech: ['gatsby', 'taiwindcss'],
