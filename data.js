@@ -81,6 +81,12 @@ const data = {
             url: 'https://me.ryoikarashi.com',
             sites: [
               {
+                name: '不動産管理クロスプラットフォームモバイルアプリ',
+                desc: '不動産オーナー向けの不動産管理クロスプラットフォームモバイルアプリケーションを開発',
+                tech: ['react-native', 'typescript', 'ios', 'android'],
+                url: '',
+              },
+              {
                 name: '妊婦向けチャットボットサービス',
                 desc: '妊婦向けのチャットボットアプリケーションを開発',
                 tech: [],
