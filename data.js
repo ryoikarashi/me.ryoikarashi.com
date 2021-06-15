@@ -27,14 +27,6 @@ const data = {
           url: 'https://twitter.com/ryo_ikarashi',
           classname: 'twitter'
         },
-        // {
-        //   url: 'https://facebook.com/ry0ikarash1',
-        //   classname: 'facebook'
-        // },
-        // {
-        //   url: 'https://instagram.com/ryo_ikarashi',
-        //   classname: 'instagram'
-        // },
         {
           url: 'https://github.com/RyoIkarashi',
           classname: 'github'
