@@ -2,10 +2,10 @@ const data = {
   data: {
     meta: {
       title: 'About Me | Ryo Ikarashi',
-      desc: '五十嵐諒 / ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+      desc: '五十嵐諒 / WEB/モバイルアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
       og: {
         title: 'About Me | Ryo Ikarashi',
-        desc: '五十嵐諒 / ウェブサイト/WEBアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
+        desc: '五十嵐諒 / WEB/モバイルアプリケーションのデザイン・開発を行うフリーランスのエンジニア兼デザイナー',
         type: 'website',
         url: 'https://ryoikarashi.com',
         image: '../assets/ryoikarashi-ogp.png',
